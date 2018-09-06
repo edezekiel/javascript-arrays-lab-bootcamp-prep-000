@@ -5,9 +5,9 @@
 
  // 1) Arrays destructivelyAppendKitten(name) appends a
  // kitten to the end of the kittens array:
-// function destructivelyAppendKitten(name) {
-//   kittens.push(name);
-// }
+function destructivelyAppendKitten(name) {
+  kittens.push(name);
+}
 //
 //  //   2) Arrays destructivelyPrependKitten(name) prepends
 //  // a kitten to the beginning of the kittens array:
