@@ -17,7 +17,7 @@ function destructivelyAppendKitten(name) {
 
 //  3) Arrays destructivelyRemoveLastKitten() removes
 // the last kitten from the kittens array:
-function destructivelyRemoveElementFromBeginningOfArray(){
+function destructivelyRemoveLastKitten(){
   kittens.shift();
   return kittens;
 }
