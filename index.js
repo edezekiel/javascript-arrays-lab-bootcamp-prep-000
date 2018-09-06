@@ -26,10 +26,10 @@ function destructivelyAppendKitten(name) {
  //  5) Arrays appendKitten(name) appends a kitten to the kittens array
  //and returns a new array,
  //leaving the kittens array unchanged:
-// function appendKitten(name){
-//   var newKittens = kittens.concat(name);
-//   return newKittens;
-// }
+ function appendKitten(name){
+   var newArray = [...kittens, name];
+   return newArray;
+}
 
  //  6) Arrays prependKitten(name) prepends a kitten
  //to the kittens array and returns a new array,
