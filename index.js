@@ -33,11 +33,11 @@
 
  //  6) Arrays prependKitten(name) prepends a kitten
  //to the kittens array and returns a new array,
- // // leaving the kittens array unchanged:
- function prependKitten(arr, name){
-   var array = array;
-   var newArray = [name, ...array];
-   return newArray;
+ // // // leaving the kittens array unchanged:
+ // function prependKitten(arr, name){
+ //   var array = array;
+ //   var newArray = [name, ...array];
+ //   return newArray;
 
  //  7) Arrays removeLastKitten() removes the last kitten
  //in the kittens array and returns a new array,
