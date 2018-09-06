@@ -25,7 +25,7 @@ function destructivelyRemoveLastKitten(){
  //  4) Arrays destructivelyRemoveFirstKitten() removes
  // the First kitten from the kittens array:
  function destructivelyRemoveFirstKitten(){
-   kittens.slice(1);
+   kittens.shift();
    return kittens;
  }
 
